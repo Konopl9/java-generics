@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6013a56c-1e67-431d-906f-8f88d662a477" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/basic-generics/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-generics/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-generics/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-generics/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-generics/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-generics/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-generics/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-generics/out/production/basic-generics/com/mishcma/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-generics/out/production/basic-generics/com/mishcma/Store.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="28qrGFB5vppkb7d5YyK8snx1GJC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6013a56c-1e67-431d-906f-8f88d662a477" name="Changes" comment="" />
+      <created>1651954859046</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1651954859046</updated>
+      <workItem from="1651954860338" duration="23000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
