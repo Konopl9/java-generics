@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6013a56c-1e67-431d-906f-8f88d662a477" name="Changes" comment="bg-3 added bounded type example and solved one exercise, also refactored file structure">
-      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/typeinference/Bucket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/typeinference/TypeInferenceMain.java" afterDir="false" />
+    <list default="true" id="6013a56c-1e67-431d-906f-8f88d662a477" name="Changes" comment="bg-4 type inference example">
+      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/wildcards/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/wildcards/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/wildcards/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/wildcards/WildCardsMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/wildcards/lowerbounded/LowerBoundedWildcardsMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/wildcards/upperbounded/UpperBoundedWildCardsMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +43,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.TypeInferenceMain">
+  <component name="RunManager" selected="Application.LowerBoundedWildcardsMain">
     <configuration name="BoundedTypeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mishcma.boundedtype.BoundedTypeMain" />
       <module name="java-generics" />
@@ -53,25 +57,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenericMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mishcma.generictype.GenericMain" />
+    <configuration name="LowerBoundedWildcardsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mishcma.wildcards.lowerbounded.LowerBoundedWildcardsMain" />
       <module name="java-generics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mishcma.generictype.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GenericMethodMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mishcma.genericmethod.GenericMethodMain" />
-      <module name="java-generics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mishcma.generictype.*" />
+          <option name="PATTERN" value="com.mishcma.wildcards.lowerbounded.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,12 +83,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UpperBoundedWildCardsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mishcma.wildcards.upperbounded.UpperBoundedWildCardsMain" />
+      <module name="java-generics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mishcma.wildcards.upperbounded.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WildCardsMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mishcma.wildcards.WildCardsMain" />
+      <module name="java-generics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mishcma.wildcards.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LowerBoundedWildcardsMain" />
+        <item itemvalue="Application.UpperBoundedWildCardsMain" />
+        <item itemvalue="Application.WildCardsMain" />
         <item itemvalue="Application.TypeInferenceMain" />
         <item itemvalue="Application.BoundedTypeMain" />
-        <item itemvalue="Application.GenericMethodMain" />
-        <item itemvalue="Application.GenericMain" />
       </list>
     </recent_temporary>
   </component>
@@ -111,7 +129,7 @@
       <updated>1651954859046</updated>
       <workItem from="1651954860338" duration="23000" />
       <workItem from="1651954959755" duration="1961000" />
-      <workItem from="1651966272518" duration="3750000" />
+      <workItem from="1651966272518" duration="9317000" />
     </task>
     <task id="LOCAL-00001" summary="bg-1 added example with cast object into other object">
       <created>1651955026946</created>
@@ -134,7 +152,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652017386008</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="bg-4 type inference example">
+      <created>1652018704359</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1652018704359</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +181,21 @@
     <MESSAGE value="bg-1 added example with cast object into other object" />
     <MESSAGE value="bg-2 added examples with the generic types and methods" />
     <MESSAGE value="bg-3 added bounded type example and solved one exercise, also refactored file structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="bg-3 added bounded type example and solved one exercise, also refactored file structure" />
+    <MESSAGE value="bg-4 type inference example" />
+    <option name="LAST_COMMIT_MESSAGE" value="bg-4 type inference example" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/basic-generics/src/com/mishcma/wildcards/lowerbounded/LowerBoundedWildcardsMain.java</url>
+          <line>23</line>
+          <properties class="com.mishcma.wildcards.lowerbounded.LowerBoundedWildcardsMain" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
