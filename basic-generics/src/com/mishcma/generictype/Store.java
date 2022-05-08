@@ -1,4 +1,4 @@
-package com.mishcma;
+package com.mishcma.generictype;
 
 public class Store<T> {
 

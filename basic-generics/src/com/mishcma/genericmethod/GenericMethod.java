@@ -1,4 +1,4 @@
-package com.mishcma;
+package com.mishcma.genericmethod;
 
 public class GenericMethod {
 

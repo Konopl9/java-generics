@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6013a56c-1e67-431d-906f-8f88d662a477" name="Changes" comment="bg-1 added example with cast object into other object">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/GenericMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/HashTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/Store.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/main/GenericMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/main/GenericMethodMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="6013a56c-1e67-431d-906f-8f88d662a477" name="Changes" comment="bg-2 added examples with the generic types and methods">
+      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/boundedtype/BoundedTypeMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/boundedtype/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic-generics/src/com/mishcma/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-generics/src/com/mishcma/GenericMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/genericmethod/GenericMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-generics/src/com/mishcma/HashTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/generictype/HashTable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-generics/src/com/mishcma/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/generictype/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-generics/src/com/mishcma/main/GenericMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/generictype/GenericMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/basic-generics/src/com/mishcma/main/GenericMethodMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/genericmethod/GenericMethodMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,19 +37,33 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.GenericMethodMain">
-    <configuration name="GenericMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mishcma.main.GenericMain" />
+  <component name="RunManager" selected="Application.BoundedTypeMain">
+    <configuration name="BoundedTypeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mishcma.boundedtype.BoundedTypeMain" />
       <module name="java-generics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mishcma.main.*" />
+          <option name="PATTERN" value="com.mishcma.generictype.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GenericMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mishcma.generictype.GenericMain" />
+      <module name="java-generics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mishcma.generictype.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -59,11 +72,11 @@
       </method>
     </configuration>
     <configuration name="GenericMethodMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mishcma.main.GenericMethodMain" />
+      <option name="MAIN_CLASS_NAME" value="com.mishcma.genericmethod.GenericMethodMain" />
       <module name="java-generics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mishcma.main.*" />
+          <option name="PATTERN" value="com.mishcma.generictype.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -73,6 +86,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BoundedTypeMain" />
         <item itemvalue="Application.GenericMethodMain" />
         <item itemvalue="Application.GenericMain" />
       </list>
@@ -88,7 +102,7 @@
       <updated>1651954859046</updated>
       <workItem from="1651954860338" duration="23000" />
       <workItem from="1651954959755" duration="1961000" />
-      <workItem from="1651966272518" duration="713000" />
+      <workItem from="1651966272518" duration="2213000" />
     </task>
     <task id="LOCAL-00001" summary="bg-1 added example with cast object into other object">
       <created>1651955026946</created>
@@ -97,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1651955026946</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="bg-2 added examples with the generic types and methods">
+      <created>1651967038018</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1651967038018</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +138,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bg-1 added example with cast object into other object" />
-    <option name="LAST_COMMIT_MESSAGE" value="bg-1 added example with cast object into other object" />
+    <MESSAGE value="bg-2 added examples with the generic types and methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="bg-2 added examples with the generic types and methods" />
   </component>
 </project>

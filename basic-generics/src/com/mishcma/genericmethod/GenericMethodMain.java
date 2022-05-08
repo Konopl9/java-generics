@@ -1,6 +1,4 @@
-package com.mishcma.main;
-
-import com.mishcma.GenericMethod;
+package com.mishcma.genericmethod;
 
 public class GenericMethodMain {
 

@@ -1,7 +1,4 @@
-package com.mishcma.main;
-
-import com.mishcma.HashTable;
-import com.mishcma.Store;
+package com.mishcma.generictype;
 
 public class GenericMain {
 
