@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6013a56c-1e67-431d-906f-8f88d662a477" name="Changes" comment="bg-5 added upper and lower bounded wildcards">
-      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/typeerasure/FirstStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/typeerasure/TypeErasureMain.java" afterDir="false" />
+    <list default="true" id="6013a56c-1e67-431d-906f-8f88d662a477" name="Changes" comment="bg-6 type erasure explanation added">
+      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/homeworkexercise1/Algorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/homeworkexercise1/GraphAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/homeworkexercise1/HomeWorkExercise1Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/homeworkexercise1/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/homeworkexercise1/SearchAlgorithm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/homeworkexercise1/SortingAlgorithm.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,13 +43,13 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
   </component>
-  <component name="RunManager" selected="Application.LowerBoundedWildcardsMain">
-    <configuration name="BoundedTypeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mishcma.boundedtype.BoundedTypeMain" />
+  <component name="RunManager" selected="Application.HomeWorkExercise1Main">
+    <configuration name="HomeWorkExercise1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mishcma.homeworkexercise1.HomeWorkExercise1Main" />
       <module name="java-generics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mishcma.generictype.*" />
+          <option name="PATTERN" value="com.mishcma.homeworkexercise1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HomeWorkExercise1Main" />
         <item itemvalue="Application.LowerBoundedWildcardsMain" />
         <item itemvalue="Application.UpperBoundedWildCardsMain" />
         <item itemvalue="Application.WildCardsMain" />
         <item itemvalue="Application.TypeInferenceMain" />
-        <item itemvalue="Application.BoundedTypeMain" />
       </list>
     </recent_temporary>
   </component>
@@ -125,7 +129,7 @@
       <updated>1651954859046</updated>
       <workItem from="1651954860338" duration="23000" />
       <workItem from="1651954959755" duration="1961000" />
-      <workItem from="1651966272518" duration="10636000" />
+      <workItem from="1651966272518" duration="12023000" />
     </task>
     <task id="LOCAL-00001" summary="bg-1 added example with cast object into other object">
       <created>1651955026946</created>
@@ -162,7 +166,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652049579911</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="bg-6 type erasure explanation added">
+      <created>1652080221320</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1652080221320</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -186,7 +197,8 @@
     <MESSAGE value="bg-3 added bounded type example and solved one exercise, also refactored file structure" />
     <MESSAGE value="bg-4 type inference example" />
     <MESSAGE value="bg-5 added upper and lower bounded wildcards" />
-    <option name="LAST_COMMIT_MESSAGE" value="bg-5 added upper and lower bounded wildcards" />
+    <MESSAGE value="bg-6 type erasure explanation added" />
+    <option name="LAST_COMMIT_MESSAGE" value="bg-6 type erasure explanation added" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
