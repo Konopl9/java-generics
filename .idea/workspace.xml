@@ -4,14 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6013a56c-1e67-431d-906f-8f88d662a477" name="Changes" comment="bg-6 type erasure explanation added">
-      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/homeworkexercise1/Algorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/homeworkexercise1/GraphAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/homeworkexercise1/HomeWorkExercise1Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/homeworkexercise1/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/homeworkexercise1/SearchAlgorithm.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/homeworkexercise1/SortingAlgorithm.java" afterDir="false" />
+    <list default="true" id="6013a56c-1e67-431d-906f-8f88d662a477" name="Changes" comment="bg-7 first homework exercise">
+      <change afterPath="$PROJECT_DIR$/collections-framework/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections-framework/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections-framework/.idea/google-java-format.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections-framework/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections-framework/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections-framework/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections-framework/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections-framework/out/production/basic-generics/com/mishcma/Main.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections-framework/out/production/basic-generics/com/mishcma/Store.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-generics.iml" beforeDir="false" afterPath="$PROJECT_DIR$/java-generics.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +33,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="28qrGFB5vppkb7d5YyK8snx1GJC" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -38,10 +51,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/collections-framework" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mishcma\Study\java-generics\collections-framework" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.HomeWorkExercise1Main">
     <configuration name="HomeWorkExercise1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -130,6 +152,7 @@
       <workItem from="1651954860338" duration="23000" />
       <workItem from="1651954959755" duration="1961000" />
       <workItem from="1651966272518" duration="12023000" />
+      <workItem from="1652084085250" duration="1879000" />
     </task>
     <task id="LOCAL-00001" summary="bg-1 added example with cast object into other object">
       <created>1651955026946</created>
