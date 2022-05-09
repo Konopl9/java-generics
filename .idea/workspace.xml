@@ -4,13 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6013a56c-1e67-431d-906f-8f88d662a477" name="Changes" comment="bg-4 type inference example">
-      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/wildcards/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/wildcards/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/wildcards/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/wildcards/WildCardsMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/wildcards/lowerbounded/LowerBoundedWildcardsMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/wildcards/upperbounded/UpperBoundedWildCardsMain.java" afterDir="false" />
+    <list default="true" id="6013a56c-1e67-431d-906f-8f88d662a477" name="Changes" comment="bg-5 added upper and lower bounded wildcards">
+      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/typeerasure/FirstStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/basic-generics/src/com/mishcma/typeerasure/TypeErasureMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -129,7 +125,7 @@
       <updated>1651954859046</updated>
       <workItem from="1651954860338" duration="23000" />
       <workItem from="1651954959755" duration="1961000" />
-      <workItem from="1651966272518" duration="9317000" />
+      <workItem from="1651966272518" duration="10636000" />
     </task>
     <task id="LOCAL-00001" summary="bg-1 added example with cast object into other object">
       <created>1651955026946</created>
@@ -159,7 +155,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652018704359</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="bg-5 added upper and lower bounded wildcards">
+      <created>1652049579911</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1652049579911</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,7 +185,8 @@
     <MESSAGE value="bg-2 added examples with the generic types and methods" />
     <MESSAGE value="bg-3 added bounded type example and solved one exercise, also refactored file structure" />
     <MESSAGE value="bg-4 type inference example" />
-    <option name="LAST_COMMIT_MESSAGE" value="bg-4 type inference example" />
+    <MESSAGE value="bg-5 added upper and lower bounded wildcards" />
+    <option name="LAST_COMMIT_MESSAGE" value="bg-5 added upper and lower bounded wildcards" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
