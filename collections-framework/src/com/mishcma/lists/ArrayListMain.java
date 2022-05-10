@@ -1,4 +1,4 @@
-package com.mishcma.list;
+package com.mishcma.lists;
 
 import java.util.ArrayList;
 import java.util.List;
