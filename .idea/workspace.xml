@@ -5,14 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6013a56c-1e67-431d-906f-8f88d662a477" name="Changes" comment="bg-11 stack">
-      <change afterPath="$PROJECT_DIR$/collections-framework/src/com/mishcma/queues/DequeMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collections-framework/src/com/mishcma/queues/Person.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collections-framework/src/com/mishcma/queues/PriorityQueueMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collections-framework/src/com/mishcma/queues/QueueMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections-framework/src/com/mishcma/maps/HashMapMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections-framework/src/com/mishcma/maps/LinkedHashMapMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections-framework/src/com/mishcma/maps/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections-framework/src/com/mishcma/maps/TreeMapMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections-framework/src/com/mishcma/list/ArrayListMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/collections-framework/src/com/mishcma/lists/ArrayListMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections-framework/src/com/mishcma/list/LinkedListMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/collections-framework/src/com/mishcma/lists/LinkedListMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/collections-framework/src/com/mishcma/list/StackMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/collections-framework/src/com/mishcma/lists/StackMain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +57,7 @@
       <recent name="C:\Users\mishcma\Study\java-generics\collections-framework" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DequeMain">
+  <component name="RunManager" selected="Application.TreeMapMain">
     <configuration name="DequeMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mishcma.queues.DequeMain" />
       <module name="java-generics" />
@@ -74,12 +71,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedListMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mishcma.lists.LinkedListMain" />
+    <configuration name="HashMapMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mishcma.maps.HashMapMain" />
       <module name="java-generics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mishcma.lists.*" />
+          <option name="PATTERN" value="com.mishcma.maps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LinkedHashMapMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mishcma.maps.LinkedHashMapMain" />
+      <module name="java-generics" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mishcma.maps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,25 +110,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mishcma.queues.QueueMain" />
+    <configuration name="TreeMapMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mishcma.maps.TreeMapMain" />
       <module name="java-generics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mishcma.queues.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mishcma.lists.StackMain" />
-      <module name="java-generics" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mishcma.lists.*" />
+          <option name="PATTERN" value="com.mishcma.maps.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TreeMapMain" />
+        <item itemvalue="Application.LinkedHashMapMain" />
+        <item itemvalue="Application.HashMapMain" />
         <item itemvalue="Application.DequeMain" />
         <item itemvalue="Application.PriorityQueueMain" />
-        <item itemvalue="Application.QueueMain" />
-        <item itemvalue="Application.StackMain" />
-        <item itemvalue="Application.LinkedListMain" />
       </list>
     </recent_temporary>
   </component>
@@ -148,6 +145,7 @@
       <workItem from="1651954959755" duration="1961000" />
       <workItem from="1651966272518" duration="12023000" />
       <workItem from="1652084085250" duration="13346000" />
+      <workItem from="1652253777673" duration="6390000" />
     </task>
     <task id="LOCAL-00001" summary="bg-1 added example with cast object into other object">
       <created>1651955026946</created>
