@@ -4,10 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6013a56c-1e67-431d-906f-8f88d662a477" name="Changes" comment="bg-13 maps hash table, hash map, linked hash map, tree set">
-      <change afterPath="$PROJECT_DIR$/collections-framework/src/com/mishcma/sets/HashSetMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collections-framework/src/com/mishcma/sets/LinkedSetMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/collections-framework/src/com/mishcma/sets/TreeSetMain.java" afterDir="false" />
+    <list default="true" id="6013a56c-1e67-431d-906f-8f88d662a477" name="Changes" comment="bg-14 sets, hash set, linked hash set and tree set">
+      <change afterPath="$PROJECT_DIR$/collections-framework/src/com/mishcma/sorting/ArraysSortingMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections-framework/src/com/mishcma/sorting/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections-framework/src/com/mishcma/sorting/BookComparable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections-framework/src/com/mishcma/sorting/BookComparator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections-framework/src/com/mishcma/sorting/CollectionsSortingMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections-framework/src/com/mishcma/sorting/ComparableInterfaceMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections-framework/src/com/mishcma/sorting/ComparatorMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections-framework/src/com/mishcma/sorting/LambdaExpressionMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/collections-framework/src/com/mishcma/sorting/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -55,14 +61,17 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\mishcma\Study\java-generics\collections-framework" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.mishcma.sorting" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.TreeSetMain">
-    <configuration name="HashSetMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mishcma.sets.HashSetMain" />
+  <component name="RunManager" selected="Application.LambdaExpressionMain">
+    <configuration name="ArraysSortingMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mishcma.sorting.ArraysSortingMain" />
       <module name="java-generics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mishcma.sets.*" />
+          <option name="PATTERN" value="com.mishcma.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +79,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedHashMapMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mishcma.maps.LinkedHashMapMain" />
+    <configuration name="ComparableInterfaceMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mishcma.sorting.ComparableInterfaceMain" />
       <module name="java-generics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mishcma.maps.*" />
+          <option name="PATTERN" value="com.mishcma.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +92,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedSetMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mishcma.sets.LinkedSetMain" />
+    <configuration name="ComparatorMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mishcma.sorting.ComparatorMain" />
       <module name="java-generics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mishcma.sets.*" />
+          <option name="PATTERN" value="com.mishcma.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +105,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TreeMapMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mishcma.maps.TreeMapMain" />
+    <configuration name="LambdaExpressionMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mishcma.sorting.LambdaExpressionMain" />
       <module name="java-generics" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mishcma.maps.*" />
+          <option name="PATTERN" value="com.mishcma.sorting.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +133,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LambdaExpressionMain" />
+        <item itemvalue="Application.ComparableInterfaceMain" />
+        <item itemvalue="Application.ComparatorMain" />
+        <item itemvalue="Application.ArraysSortingMain" />
         <item itemvalue="Application.TreeSetMain" />
-        <item itemvalue="Application.LinkedSetMain" />
-        <item itemvalue="Application.HashSetMain" />
-        <item itemvalue="Application.TreeMapMain" />
-        <item itemvalue="Application.LinkedHashMapMain" />
       </list>
     </recent_temporary>
   </component>
@@ -144,7 +153,8 @@
       <workItem from="1651954959755" duration="1961000" />
       <workItem from="1651966272518" duration="12023000" />
       <workItem from="1652084085250" duration="13346000" />
-      <workItem from="1652253777673" duration="8517000" />
+      <workItem from="1652253777673" duration="8945000" />
+      <workItem from="1652305076221" duration="6175000" />
     </task>
     <task id="LOCAL-00001" summary="bg-1 added example with cast object into other object">
       <created>1651955026946</created>
@@ -216,7 +226,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652271992621</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="bg-14 sets, hash set, linked hash set and tree set">
+      <created>1652274413378</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1652274413378</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +262,8 @@
     <MESSAGE value="bg-10 added array list, liked list and performance test" />
     <MESSAGE value="bg-11 stack" />
     <MESSAGE value="bg-13 maps hash table, hash map, linked hash map, tree set" />
-    <option name="LAST_COMMIT_MESSAGE" value="bg-13 maps hash table, hash map, linked hash map, tree set" />
+    <MESSAGE value="bg-14 sets, hash set, linked hash set and tree set" />
+    <option name="LAST_COMMIT_MESSAGE" value="bg-14 sets, hash set, linked hash set and tree set" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
